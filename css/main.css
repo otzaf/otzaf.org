@@ -46,7 +46,7 @@ h5 {
 
 p { 
     font-size: 1.2em;     
-    line-height: 160%;
+    line-height: 180%;
 }
 
 /* navbar */
@@ -124,15 +124,30 @@ ul, ol {
 }
 
 /* footer */
+footer {
+    background: var(--off-white);
+}
 footer .resources {
     padding: 2em;
-    background: var(--off-white);
+}
+.resources {
+    display: block;
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+}
+.resources ul {
+    margin-left: 0;
+    list-style: none;
+}
+.resources ul li {
+    font-size: 14pt;
 }
 
 /* todo shift this over to be center */
 .resourcesContainer {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 100%;
 }
 
 footer .copy {
