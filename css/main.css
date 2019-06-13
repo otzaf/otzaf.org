@@ -63,6 +63,15 @@ nav ul {
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 530px) {
+    nav ul .links {
+        margin-top: 1em;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+}
+
 nav ul .links {
     display: flex;
     flex-direction: row;
