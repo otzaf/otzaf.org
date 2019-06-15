@@ -105,7 +105,7 @@ nav ul li a {
 /* main content */
 main {
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 2em auto;
     padding: 2em;
 
@@ -141,7 +141,7 @@ footer .resources {
 }
 .resources {
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 2em auto;
     padding: 2em;
 }
