@@ -1,9 +1,11 @@
+import React from 'react'
+
 export default () => (
   <main>
     <article>
       <h1>Otzaf</h1>
       <p>
-                Otzaf is a software house based in Brighton, UK. 
+        Otzaf is a software house based in Brighton, UK. 
       </p>
     </article>
 
