@@ -11,9 +11,11 @@ import About from './about'
 const routes = (
   <HashRouter>
     <Header/>
+
     <Route exact path='/' component={Home}/>
     <Route path='/about' component={About}/>
     <Route path='/contact' component={Contact}/>
+
     <Footer/>
   </HashRouter>
 )  
