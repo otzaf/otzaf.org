@@ -1,0 +1,26 @@
+{
+  "name": "otzaf.org",
+  "version": "1.0.0",
+  "description": "otzaf website",
+  "main": "index.js",
+  "repository": "git@github.com:otzaf/otzaf.org",
+  "author": "Felix Angell <felixangell@otzaf.org>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "s": "webpack",
+    "w": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
