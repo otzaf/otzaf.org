@@ -155,8 +155,9 @@ footer .resources {
 
 /* todo shift this over to be center */
 .resourcesContainer {
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 footer .copy {
