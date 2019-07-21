@@ -2,38 +2,22 @@ import React from 'react'
 
 export default () => (
   <main>
-    <article>
+    <article className="missionContainer">
       <h1>Hello, World!</h1>
       <p className="mission">
-                Otzaf is <strong>privacy</strong> first. This is reflected in our software and our revenue model.<br/>
-                Our mission is to provide software for the people - not profit.
+        Our mission is to provide elegant solutions that are <strong className="privacyKeyword">privacy</strong> first 
+        - we don't depend on abusing your <strong className="peopleKeyword">trust</strong> for profit.
       </p>
     </article>
 
-    <hr/>
-
     <article>
-      <h2>Where we're headed</h2>
+      <h2>Products</h2>
       <p>
-                Our primary revenue stream will be from a variety of alternative paid-for software solutions.
+        Otzaf is a young company with ambitious goals - there are many problems that we are yet to tackle. Right now we're
+        in the phase of bootstrapping Otzaf.
       </p>
       <p>
-                Particular problems we're interested in tackling are data storage, email, text editors, web browsers, search engines,
-                and more. We want to provide services worth paying for - where you aren't the product.
-      </p>
-    </article>
-
-    <hr/>
-
-    <article>
-      <h4>Contributing</h4>
-      <p>
-                This website itself is open source. Requests for change can be made
-                on the <a href='https://github.com/otzaf/otzaf.org'>GitHub</a> page.
-      </p>
-      <p>
-                All of the open source projects we have can be found on GitHub &mdash; any contributions
-                are welcome.
+        Join us on our journey. Discover how we <a href=''>we can help you.</a>
       </p>
     </article>
   </main>

@@ -3,7 +3,19 @@ import { Link } from 'react-router-dom'
 
 export default () => (
   <footer>
-    <section className="resources">
+    <section className="contributingContainer">
+      <h4>Contributing</h4>
+      <p>
+        This website itself is open source. Requests for change can be made
+        on the <a href='https://github.com/otzaf/otzaf.org'>GitHub</a> page.
+      </p>
+      <p>
+        All of the open source projects we have can be found on GitHub &mdash; any contributions
+        are welcome.
+      </p>
+
+      <hr />
+
       <div className="resourcesContainer">
         <div>
           <h4>Company</h4>
@@ -15,7 +27,7 @@ export default () => (
         <div>
           <h4>Developers</h4>
           <ul>
-            <li><Link to='https://github.com/otzaf'>GitHub</Link></li>
+            <li><a href='https://github.com/otzaf'>GitHub</a></li>
           </ul>
         </div>
         <div>
@@ -28,9 +40,9 @@ export default () => (
         <div>
           <h4>Follow Us</h4>
           <ul>
-            <li><a href='https://github.com/otzaf'>GitHub</a></li>
             <li><a href='https://www.linkedin.com/company/otzaf'>LinkedIn</a></li>
             <li><a href='https://github.com/otzaf'>Twitter</a></li>
+            <li><a href='https://github.com/otzaf'>GitHub</a></li>
           </ul>
         </div>
       </div>
