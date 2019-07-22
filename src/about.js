@@ -5,7 +5,7 @@ export default () => (
     <article>
       <h1>Otzaf</h1>
       <p>
-        Otzaf is an Engineering compnany based in Brighton, UK. Our mission is to provide a variety of elegant, privacy-centric
+        Otzaf is an Engineering company based in Brighton, UK. Our mission is to provide a variety of elegant, privacy-centric
         software solutions.
       </p>
     </article>

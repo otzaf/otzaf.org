@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter, Route } from 'react-router-dom'
 
+import './main.css'
+
 import Header from './header'
 import Footer from './footer'
 
