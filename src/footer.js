@@ -41,7 +41,7 @@ export default () => (
           <h4>Follow Us</h4>
           <ul>
             <li><a href='https://www.linkedin.com/company/otzaf'>LinkedIn</a></li>
-            <li><a href='https://github.com/otzaf'>Twitter</a></li>
+            <li><a href='https://twitter.com/otzaf1'>Twitter</a></li>
             <li><a href='https://github.com/otzaf'>GitHub</a></li>
           </ul>
         </div>
