@@ -3,10 +3,11 @@ import React from 'react'
 export default () => (
   <main>
     <article className="missionContainer">
-      <h1>Hello, World!</h1>
+      <h1>What is Otzaf?</h1>
       <p className="mission">
-        Our mission is to provide elegant solutions that are <strong className="privacyKeyword">privacy</strong> first 
-        - we don't depend on abusing your <strong className="peopleKeyword">trust</strong> for profit.
+        Otzaf is an engineering company with the mission of providing elegant solutions that 
+        are <span className="keyword">privacy</span> first - we don't depend on abusing 
+        your <span className="keyword">trust</span> for profit.
       </p>
     </article>
 
