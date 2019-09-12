@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, withRouter, Switch } from 'react-router-dom'
+import { HashRouter, Route, withRouter, Switch } from 'react-router-dom'
 
 import './main.css'
 
@@ -23,7 +23,7 @@ const ScrollToTop = ({ children, location: { pathname } }) => {
 const Scroller = withRouter(ScrollToTop)
 
 const routes = (
-  <BrowserRouter>
+  <HashRouter>
     <Scroller>
       <Header />
 
@@ -36,7 +36,7 @@ const routes = (
 
       <Footer />
     </Scroller>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 ReactDOM.render(routes, document.getElementById('app'))
