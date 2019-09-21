@@ -1,27 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { translate } from './translations'
 
 export default () => {
-  const { t } = useTranslation()
   return (
     <main>
       <article className='container mission-statement'>
-        <h1>{t('Welcome')}</h1>
-        <p className='mission'>
-          Otzaf is an engineering company with the mission of providing elegant solutions that
-          are <span className='keyword'>privacy</span> first - we don't depend on abusing
-          your <span className='keyword'>trust</span> for profit.
-        </p>
+        <h1>{translate('home', 'welcome')}</h1>
+        <p className='mission'>{translate('home', 'mission')}</p>
       </article>
 
       <article>
-        <p>
-          {t('goal1')}
-        </p>
-        <p>
-          Join us on our journey. Learn more about <Link to='/about'>what we're planning</Link>.
-        </p>
+        <p>{translate('home', 'goal1')}</p>
+        <p>{translate('home', 'learn_more')}</p>
       </article>
     </main>
   )

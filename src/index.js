@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom'
 import { Route, Switch } from 'react-router-dom'
 import React, { Suspense } from 'react'
+import { IntlProvider } from 'react-intl'
 
 import Home from './home'
 import Contact from './contact'
@@ -10,9 +11,8 @@ import RoutedPageTemplate from './routed_page_template'
 import LoadingPage from './loading_page'
 
 import './main.css'
-import './i18n.js'
 
-const routes = (
+const App = () => (
   <RoutedPageTemplate>
     <Suspense fallback={LoadingPage}>
       <Switch>
@@ -25,4 +25,4 @@ const routes = (
   </RoutedPageTemplate>
 )
 
-ReactDOM.render(routes, document.getElementById('app'))
+ReactDOM.render(<IntlProvider locale='en'><App/></IntlProvider>, document.getElementById('app'))
