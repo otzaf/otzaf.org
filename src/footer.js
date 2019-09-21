@@ -30,6 +30,7 @@ export default () => (
           <h4>Developers</h4>
           <ul>
             <li><a href='https://github.com/otzaf'>GitHub</a></li>
+            <li><a href='https://git.otzaf.com/'>Gitea</a></li>
           </ul>
         </div>
         <div>

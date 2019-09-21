@@ -39,6 +39,10 @@ export default () => (
         <p>
           In the mean time you can check out our <a href='https://github.com/otzaf/'>GitHub</a> page where we keep some of our projects.
         </p>
+        <p>
+          Additionally, we have some open source projects on our <a href='https://git.otzaf.org/'>hosted instance of Gitea</a>. If we open source
+          something, it will usually be open sourced internally on Gitea first before making it's way to GitHub.
+        </p>
       </div>
     </article>
 
