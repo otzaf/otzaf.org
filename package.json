@@ -11,7 +11,7 @@
     "s": "webpack",
     "w": "webpack-dev-server",
     "prod": "webpack --config webpack.prod.js",
-    "lint": "standard --fix src/*/**.js"
+    "lint": "git ls-files src | grep '\\.js$' | xargs standard --fix"
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
@@ -20,10 +20,12 @@
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
+    "i18next": "^17.0.16",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-i18next": "^10.12.5",
     "react-router-dom": "^5.0.1",
     "standard": "^14.1.0",
     "style-loader": "^0.23.1",
