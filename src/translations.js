@@ -8,6 +8,7 @@ const github_link = <a href='https://github.com/otzaf/'>GitHub</a>
 
 const trans = {
     home: {
+        heading: <FormattedMessage id='welcome' defaultMessage="Who are we?"/>,
         welcome: <FormattedMessage id='welcome' defaultMessage="Hello, World! We're Otzaf!"/>,
         mission: <FormattedMessage id='mission' defaultMessage="Otzaf is an engineering company with the mission of providing elegant solutions that are privacy first - we don't depend on abusing your trust for profit."/>,
         goal1: <FormattedMessage id='goal1' defaultMessage="Otzaf is a young company with ambitious goals - there are many problems that we are yet to tackle. Right now we're in the phase of bootstrapping Otzaf."/>,

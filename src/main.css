@@ -207,6 +207,8 @@ ul, ol {
 
 .paddedSection {
     padding: 0.5em 0;
+    margin-bottom: 2em;
+    text-align: justify
 }
 
 @media only screen and (max-width: 800px) {

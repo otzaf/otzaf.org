@@ -11,6 +11,7 @@ export default () => {
       </article>
 
       <article>
+        <h3>{translate('home', 'heading')}</h3>
         <p>{translate('home', 'goal1')}</p>
         <p>{translate('home', 'learn_more')}</p>
       </article>
