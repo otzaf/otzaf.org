@@ -1,20 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { translate } from './translations'
 
 export default () => {
   return (
-    <main>
-      <article className='container mission-statement'>
+    <div className='main-container pure-g'>
+      <div className='pure-u-1-1'>
         <h1>{translate('home', 'welcome')}</h1>
         <p className='mission'>{translate('home', 'mission')}</p>
-      </article>
+      </div>
 
-      <article>
+      <div className='pure-u-1-1'>
         <h3>{translate('home', 'heading')}</h3>
         <p>{translate('home', 'goal1')}</p>
         <p>{translate('home', 'learn_more')}</p>
-      </article>
-    </main>
+      </div>
+    </div>
   )
 }

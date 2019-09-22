@@ -2,15 +2,15 @@ import React from 'react'
 import { translate } from './translations'
 
 export default () => (
-  <main>
-    <article>
+  <div className='pure-g'>
+    <div className='pure-u-1-1'>
       <h1>{translate('about', 'about')}</h1>
       <p>
       {translate('about', 'tagline')}
       </p>
-    </article>
+    </div>
 
-    <article>
+    <div className='pure-u-1-1'>
       <div className='paddedSection'>
         <h3>{translate('about', 'vision')}</h3>
         <p>{translate('about', 'vision_msg')}</p>
@@ -28,7 +28,7 @@ export default () => (
         <p>{translate('about', 'transparency_msg_2')}</p>
         <p>{translate('about', 'transparency_msg_3')}</p>
       </div>
-    </article>
+    </div>
 
-  </main>
+  </div>
 )
