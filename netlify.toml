@@ -1,0 +1,16 @@
+[build]
+  publish = "build/"
+  command = "make build"
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.staging.environment]
+  NODE_ENV = "staging"
+
+[context.branch-deploy.environment]
+  NODE_ENV = "development"
+
+[[redirects]]
+  from = "/*"
+  to = "/#:splat"
