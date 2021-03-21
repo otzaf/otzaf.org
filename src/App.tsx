@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './App.module.css';
 import { Button, Card, Intent } from '@blueprintjs/core';
 
-const Project = ({ imageUrl, projectLink, projectDescription }: any) => {
+const Project = ({ imageUrl, projectName, projectLink, projectDescription }: any) => {
   const gotoLink = (link: string) => {
     const win = window.open(link, '_blank')
     win?.focus()
@@ -11,7 +11,7 @@ const Project = ({ imageUrl, projectLink, projectDescription }: any) => {
   return (
     <div className={styles.projectCardContainer}>
       <div>
-        <img src={imageUrl} />
+        <img alt={projectName} src={imageUrl} />
       </div>
       <div className={styles.projectDetailContainer}>
         <p>
@@ -45,6 +45,7 @@ function App() {
       <Card>
         <section>
           <Project
+            projectName={'Muban Finance'}
             imageUrl={'https://muban.app/images/demo-as-of-2021-02-23.png'}
             projectLink={'https://muban.app'}
             projectDescription={
