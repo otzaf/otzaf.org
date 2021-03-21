@@ -1,0 +1,36 @@
+.App {
+  display: grid;
+  width: 50vw;
+  margin: 2em auto;
+  row-gap: 1em;
+  font-size: 16pt;
+}
+
+.projectName {
+  font-weight: bold;
+}
+
+.projectCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 2em;
+  text-align: center;
+}
+
+.projectDetailContainer {
+  font-size: 14pt;
+}
+
+.projectCardContainer img {
+  display: block;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: 90vw;
+  }
+}
